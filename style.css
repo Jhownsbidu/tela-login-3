@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine:wght@400..700&family=Passion+One:wght@400;700;900&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background-image: url(https://media1.tenor.com/m/_PvDCx7_afcAAAAd/starry-night-sky-wishing-on-a-star.gif);
+    background-position: right  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    border: 1px solid white;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(72, 116, 155, 0.219);
+    box-shadow: 1px 1px 10px white;
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.login{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+    margin-right: 20px;
+    padding-right: 70px;
+}
+
+.login input{
+    width: 85%;
+    height: 100%;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    color: black;
+    font-size: 19px;
+    padding: 20px 45px 20px 20px;
+    
+}
+.login input::placeholder{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(0, 0, 0, 0.349);
+}
+
+.login span{
+    position: absolute;
+    right:24px ;
+    color: black;
+    left: 372px;
+    bottom: 20px;
+    
+}
+.caixa{
+    margin-top: -15px;
+    margin-left: 13px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+.caixa a{
+    color: red;
+    transition-duration: .2s;
+
+}
+.caixa a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 18px;
+    transition-duration: .2s;
+}
+.caixa a:active{
+    color: white;
+}
+
+.entra{
+    background-color: rgba(255, 255, 255, 0.959);
+    margin-left: 45px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 16px;
+
+}
+.entra:hover{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.cadastro{
+    
+    color: rgb(247, 244, 244);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.cadastro a{
+    color: red;
+    transition-duration: .2s;
+}
+.cadastro a:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 18px;
+    transition-duration: .2s;
+}
+.cadastro a:active{
+    color: white;
+}
